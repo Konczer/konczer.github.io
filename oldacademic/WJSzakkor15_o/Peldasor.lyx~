@@ -1,0 +1,412 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Paragraph
+Laplace démonának rémálma
+\end_layout
+
+\begin_layout Enumerate
+Mi történik ha két pontszerű részecske ütközik? A tömegek 
+\begin_inset Formula $m_{1},$
+\end_inset
+
+ 
+\begin_inset Formula $m_{2}$
+\end_inset
+
+ a sebességek 
+\begin_inset Formula $v_{1},$
+\end_inset
+
+
+\begin_inset Formula $v_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Mi történik ha nem pontszerűk, hanem szimmetrikus merev testek 
+\begin_inset Formula $\theta_{1}$
+\end_inset
+
+és 
+\begin_inset Formula $\theta_{2}$
+\end_inset
+
+tehetetlenségi nyomatékokkal (az ütközés előtt a testek nem forognak, és
+ úgy ütköznek, hogy az össz.
+ impulzus momentum 0.)
+\end_layout
+
+\begin_layout Enumerate
+A biliárd asztalon két azonos tömegű és méretű elefántcsontból faragott
+ golyó érinti egymást.
+ A szimmetria síkkal párhuzamosan beléjük lökjük a 3.
+ fehér golyót.
+ Mi történhet, és mi fog történni?
+\end_layout
+
+\begin_layout Enumerate
+Egy 20
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $\ell$
+\end_inset
+
+-es hőszigetelő falú hengert kezdetben egy rögzített hőszigetelő dugattyú
+ választ két egyenlő részre.
+ Az egyik felében 300
+\begin_inset space ~
+\end_inset
+
+K hőmérsékletű, 100
+\begin_inset space ~
+\end_inset
+
+kPa nyomású, a másikban 900
+\begin_inset space ~
+\end_inset
+
+K hőmérsékletű, 300
+\begin_inset space ~
+\end_inset
+
+kPa nyomású hélium gáz van.
+ Mi történik ha a dugattyút elengedjük, és az súrlódás mentesen tud mozogni
+ a hengerben? (Fizika előkészítő szakkör nyomán 2006.
+ 01.
+ 30.)
+\end_layout
+
+\begin_layout Paragraph
+Vörösödő követek
+\end_layout
+
+\begin_layout Standard
+
+\lang magyar
+Egy intelligens hangyatársadalom él egy pöttyös labdán, mely 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$R(t)=R_0 e^{H t}$
+\end_layout
+
+\end_inset
+
+ módon exponenciálisan tágul.
+ Egy kolónia két követet küld 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+Delta t 
+\backslash
+ll 1/H$
+\end_layout
+
+\end_inset
+
+ időkülönbséggel egy másikhoz, mely 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$t=0$
+\end_layout
+
+\end_inset
+
+-ban 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+ell$
+\end_layout
+
+\end_inset
+
+ távolságra van a labda felszinén.
+ Mekkora időkülönbséggel érkeznek meg a követek?
+\end_layout
+
+\begin_layout Paragraph
+Nyakkendőhöz az inget
+\end_layout
+
+\begin_layout Standard
+Mutassunk olyan 1D-os potenciálokat, ahol a periodúsidő energia független.
+ Mit tennénk ha adott periódusidő-energia függvényt megvalósító potenciált
+ kellene előállítani?
+\end_layout
+
+\begin_layout Paragraph
+Egzistencia és unicitás
+\end_layout
+
+\begin_layout Standard
+Nézzük a következő differenciál egyenletet:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+y'(x)=\sqrt[3]{y}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mi a megoldás ha 
+\begin_inset Formula $y(0)=0$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+Legyen a diffegyenlet kicsit bonyolultabb:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+y'(x)=\sqrt[3]{y}+x\sin(1/x)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Próbáljuk megoldani valamilyen numerikus módszerrel, mit tapasztalunk?
+\end_layout
+
+\begin_layout Paragraph
+Folytathatóság
+\end_layout
+
+\begin_layout Standard
+Ha a differenciál egyenlet elég sima, akkor mindig egy kicsit előre tudunk
+ jósolni, így tetszőleges időtartamra tudunk jóslatot mondeni.
+ Vagy nem? Nézzük meg mi történik a
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+y'(x)=1+y^{2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+diff.
+ egyenlettel tetszőleges kezdeti érték mellett.
+\end_layout
+
+\begin_layout Paragraph
+Fekete lyuk robbanás
+\end_layout
+
+\begin_layout Standard
+Mennyi idő alatt sugározza szét energiáját vákuumban egy 
+\begin_inset Formula $M$
+\end_inset
+
+ tömegű fekete lyuk?
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename black.jpg
+	lyxscale 10
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Maxwell féle sebesség eloszlás
+\end_layout
+
+\begin_layout Standard
+Egy állandó hőmérsékletű gázban a molekulák sebessége nem állandó, hanem
+ egy folytonos valószínűségi eloszlással írható le.
+ Ha csak annyit teszünk fel, hogy az eloszlás sima (végtelenszer differenciálhat
+ó), csak a sebesség abszolút értékétől függ, illetve hogy merőleges irányokban
+ független az eloszlás (azaz a sűrűség függvény faktorizállódik: 
+\begin_inset Formula $f(x,z,y)=g(x)g(y)g(z)$
+\end_inset
+
+), akkor ez milyen megszorításokat ró ki az eloszlásra?
+\end_layout
+
+\begin_layout Paragraph
+0 nyugalmi tömegű részecske
+\end_layout
+
+\begin_layout Standard
+Hogyan viselkedne egy 0 nyugalmi tömegű részecske elektromágneses térben,
+ létezhet egyáltalán ilyesmi?
+\end_layout
+
+\begin_layout Paragraph
+Lámpa a víz alatt
+\end_layout
+
+\begin_layout Standard
+Egy zavartalan felszínű vízfelület alatt 
+\begin_inset Formula $h$
+\end_inset
+
+ mélységben egy teljes féltérben izotróp módon világító lámpa van.
+ A fény hányad része jut ki a felszínre? Gondolkozzunk el azon hogy mi is
+ a kérdés, és tippeljük meg, hogy mi lenne a korrekten számolunk.
+\end_layout
+
+\begin_layout Paragraph
+Repülő atomórák
+\end_layout
+
+\begin_layout Standard
+Mi történik ha két atomórát szinkronizálunk, majd ez egyiket egy standard
+ repülő járattal (kb.
+ 10 000
+\begin_inset space ~
+\end_inset
+
+m magasan, 1000
+\begin_inset space ~
+\end_inset
+
+km/h sebességgel) körbe reptetjük a Föld körül? Az egyszerűség kedvéért
+ tagyük fel hogy a Föld nem forog.
+\end_layout
+
+\begin_layout Paragraph
+Megis is oldjuk, meg nem is
+\end_layout
+
+\begin_layout Standard
+Lőjünk egy végtelen hosszú 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ hosszanti töltéssűrűséggel rendelkező töltött rúdra egy kis 
+\begin_inset Formula $q$
+\end_inset
+
+ töltéssel rendelkező pont töltést.
+ Mikor a töltés legközelebb van a rúdhoz, akkor a kinetikus energiája legyen
+ 
+\begin_inset Formula $E$
+\end_inset
+
+, impulzus momentuma (a rúdra vonatkoztatva) 
+\begin_inset Formula $L$
+\end_inset
+
+.
+ Mekkora szöggel térül el a ponttoltés? fejezzük ki 
+\begin_inset Formula $q$
+\end_inset
+
+ hatványsorával ha tudjuk.
+ Van-e itt valami gubanc?
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document
