@@ -1,0 +1,6 @@
+@misc{web:KonczerHomepage,
+	author = {József Konczer},
+	title = {Personal home page},
+	howpublished = {Available at \url{https://konczer.github.io/}},
+	note = "[Online; accessed 25-July-2022; Archived at \url{https://web.archive.org/web/*/https://konczer.github.io/}]"
+}
