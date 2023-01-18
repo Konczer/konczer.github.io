@@ -61,6 +61,13 @@ img.github-icon {
 	width: 7%;
 }
 
+img.kaggle-icon {
+	position:relative;
+	bottom: 30px;
+	margin-left: 0px;
+	width: 3%;
+}
+
 img.ORCID-icon {
 	position:relative;
 	bottom: 30px;
@@ -80,6 +87,13 @@ img.twitter-icon {
 	bottom: 30px;
 	margin-left: 0px;
 	width: 3%;
+}
+
+img.mastodon-icon {
+	position:relative;
+	bottom: 30px;
+	margin-left: 0px;
+	width: 3.2%;
 }
 
 .nav-bar {
