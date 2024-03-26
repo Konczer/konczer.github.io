@@ -96,6 +96,20 @@ img.mastodon-icon {
 	width: 3.2%;
 }
 
+img.googlescholar-icon {
+	position:relative;
+	bottom: 30px;
+	margin-left: 0px;
+	width: 3.2%;
+}
+
+img.mathstackexchange-icon {
+	position:relative;
+	bottom: 30px;
+	margin-left: 0px;
+	width: 3.4%;
+}
+
 .nav-bar {
     font-weight: 400;
     font-size: 12pt;
@@ -138,6 +152,17 @@ img.logo {
     bottom: 150px;
     left: 470px;
     width: 20%;
+}
+
+.holder {   
+  width: auto;
+  display: inline-block;    
+}
+
+.holder {   
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .holder {   
