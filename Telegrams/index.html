@@ -28,6 +28,69 @@
 .shared-latin blockquote { margin: 0; padding: 0; border: 0; font-style: italic; line-height: 1.75; }
 .shared-latin p { margin: 0 0 18px; }
 .shared-latin p:last-child { margin-bottom: 0; }
+
+/* Mobile: preserve the bilingual two-column layout */
+@media (max-width: 760px) {
+
+  main {
+    padding: 10px 12px 50px;
+  }
+
+  body {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  /* Keep Hungarian and English side by side */
+  body[data-mode="both"] .pair {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 12px;
+  }
+
+  /* Restore the vertical separator */
+  body[data-mode="both"] .pair > :nth-child(2) {
+    border-left: 1px solid #d0c7b8;
+    padding-left: 12px;
+    min-width: 0;
+  }
+
+  /* Remove horizontal separators */
+  body[data-mode="both"] .text-row .en {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+  }
+
+  /* Smaller section headings */
+  .heading-row h2 {
+    font-size: 17px;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+  }
+
+  body[data-mode="both"] .heading-row h2:nth-child(2) {
+    margin-top: 0;
+  }
+
+  /* Compact paragraphs */
+  .col p {
+    hyphens: auto;
+    overflow-wrap: break-word;
+    margin-bottom: 10px;
+  }
+
+  .text-row {
+    margin-bottom: 18px;
+  }
+
+  /* Latin quotations */
+  .shared-latin {
+    font-size: 13px;
+    max-width: 100%;
+    padding: 0 8px;
+  }
+}
 </style>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
